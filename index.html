@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">       
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtAmbrell</title>
+    <link rel="icon" href="umbrella corporationlogoNO.png">
+</head>
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="umbrella corporationlogoNO.png">
+                    <a href="#" class="ArtAmbrell"><h2>Art<span class="danger">Umbrell</span></h2></a>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" data-target="dashboard" class="active">
+                    <span class="material-icons">dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" data-target="users">
+                    <span class="material-icons">person</span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#" data-target="history">
+                    <span class="material-icons">receipt_long</span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" data-target="analytics">
+                    <span class="material-icons">insights</span>
+                    <h3>AnalyticsArt</h3>
+                </a>
+                <a href="#" data-target="Massages">
+                    <span class="material-icons">mail_outline</span>
+                    <h3>Messages</h3>
+                    <span class="massage-count">12</span>
+                </a>
+                <a href="#" data-target="Support Notifications">
+                    <span class="material-icons">inventory_2</span>
+                    <h3>Support Notifications</h3>
+                </a>
+                <a href="#" data-target="Reports">
+                    <span class="material-icons">report</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#" data-target="Settings">
+                    <span class="material-icons">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#" data-target="New Login">
+                    <span class="material-icons">add</span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#" data-target="logout">
+                    <span class="material-icons">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Maine Conter -->
+        <main>
+            <div id="dashboard" class="section">
+                <h1>Dashboard</h1>
+                
+            </div>
+            
+            <div id="users" class="section" style="display: none;">
+                <h1>Users</h1>
+                <div class="container-Ava">
+                    <div class="username"><h3>HopRomh</h3></div>
+                    <div class="circle"></div>
+                </div>
+                
+              
+                <p>Upload an image.</p>
+                <form id="uploadForm">
+                    <label for="imageUpload" id="imageUploadLabel">
+                        Click to upload image
+                    </label>
+                    <input type="file" id="imageUpload" accept="image/*" multiple>
+                    <button type="submit" class="buttonDownload">Download</button>
+                </form>
+            
+                
+                <div id="imageGallery" class="image-gallery">
+                    <img src="ArtTest/AmbrellaHR.png" alt="AmbrellaHR">
+                    <img src="ArtTest/balls.png" alt="AmbrellaHR">
+                    <img src="ArtTest/booksR2.png" alt="AmbrellaHR">
+                    <img src="ArtTest/flying-womanFinal-HR.png" alt="AmbrellaHR">
+                    <img src="ArtTest/RoadFerm.png" alt="AmbrellaHR">
+                    <img src="ArtTest/Theft HR.png" alt="AmbrellaHR">
+                    <img src="ArtTest/Оle.Zero.png" alt="AmbrellaHR">
+                    <img src="ArtTest/объект - 6460780104.png" alt="AmbrellaHR">
+                    <img src="ArtTest/глаз пет.png" alt="AmbrellaHR">
+                    
+                </div>
+                
+                
+                <div id="imageContainer">
+                    <button class="del">Delite</button>
+                </div>
+            </div>
+
+            
+            <div id="history" class="section" style="display: none;">
+                <h1>History</h1>
+                <p>translation history</p>
+                
+                <div class="ex1">
+                    <div class="line_date" data-date="Сегодня"></div>
+                    <div class="history_box">
+                        <div class="masang">
+                            <h3>Пользователь "Users" понравилась ваша работа.</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ex2">
+                    <div class="line_date" data-date="01.11.2024"></div>
+                    <div class="history_box">
+                        <div class="masang">
+                            <h3>Пользователь "Users" подписался на вас.</h3>
+                        </div>
+                    </div>
+                    <div class="history_box">
+                        <div class="masang">
+                            <h3>Пользователь "Users" подписался на вас.</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+
+            <div id="analytics" class="section" style="display: none;">
+                <h1>AnalyticsArt</h1>
+                <div class="mass">
+                    <div class="mass-item">
+                        <h1>Time spent on work</h1>
+                        <p>20 hours</p>
+                    </div>
+                </div>
+                
+                <div class="analyse">
+                    <div class="sales">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Total Sales</h3>
+                                <h1>Art Works</h1>
+                        </div>
+                            <div class="progresss">
+                                <div class="percentage">
+                                    <p>+12 Art Works today</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="realbox">
+                        <div class="big_box_info">
+                            <h1>Information</h1>
+                        </div> 
+                    </div>
+                </div>         
+            </div>     
+            <div id="Massages" class="section" style="display: none;">
+                <h1>Massages</h1>
+
+            </div>
+            <div id="Support Notifications" class="section" style="display: none;">
+                <h1>Support Notifications</h1>
+                
+            </div>
+            <div id="Reports" class="section" style="display: none;">
+                <h1>Reports</h1>
+                <div class="textabug">
+                    <h1>Ask your question or report a bug</h1>
+                </div>
+                <form action="textbugbox">
+                    <textarea id="Askyourquestion" placeholder="Ask your question or report a bug"></textarea>
+                </form>
+                <button type="submit" class="buttonReport">Report</button>
+
+                
+            </div>
+            <div id="Settings" class="section" style="display: none;">
+                <h1>Settings</h1>
+                
+            </div>
+            <div id="New Login" class="section" style="display: none;"></div>
+            <div id="Logout" class="section" style="display: none;"></div>
+            
+        
+        </main>
+
+
+    </div>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
